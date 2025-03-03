@@ -1,0 +1,25 @@
+.role-card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 200px; /* Largeur fixe pour toutes les cartes */
+    height: 150px; /* Hauteur fixe pour toutes les cartes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .role-card:hover {
+    transform: scale(1.05); /* Effet de zoom au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+  }
+  
+  .role-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombre du texte pour une meilleure lisibilité */
+  }

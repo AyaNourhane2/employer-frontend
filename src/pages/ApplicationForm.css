@@ -1,0 +1,72 @@
+/* Style général du formulaire */
+.application-form {
+  background-color: #f4f4f9; /* Couleur de fond douce */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Titre du formulaire */
+.application-form h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic; /* Texte en italique */
+  text-decoration: underline; /* Texte souligné */
+}
+
+/* Étiquettes (labels) */
+.application-form label {
+  display: block;
+  margin: 15px 0 5px;
+  font-size: 1.1rem;
+  color: #555;
+  font-style: italic; /* Texte en italique */
+  text-decoration: underline; /* Texte souligné */
+}
+
+/* Champs de formulaire */
+.application-form input,
+.application-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Effet au focus (clic) */
+.application-form input:focus,
+.application-form textarea:focus {
+  border-color: #6B5B95; /* Changement de couleur de bordure */
+  box-shadow: 0 0 8px rgba(107, 91, 149, 0.5); /* Ombre légère */
+  outline: none; /* Supprimer l'outline par défaut */
+}
+
+/* Bouton de soumission */
+.application-form button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #6B5B95;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol */
+.application-form button:hover {
+  background-color: #524a6b; /* Changement de couleur au survol */
+}
+
+/* Effet au clic */
+.application-form button:active {
+  transform: scale(0.95); /* Réduction de la taille au clic */
+}
